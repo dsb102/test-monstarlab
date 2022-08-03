@@ -10,7 +10,6 @@ public class Main {
             double a = in.nextDouble();
             double b = in.nextDouble();
             double c = in.nextDouble();
-
             double delta = calcDelta(a, b, c);
             System.out.println(Math.sqrt(delta));
         } catch (NumberFormatException e) {

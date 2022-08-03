@@ -8,7 +8,6 @@ public class CostElectric {
         Scanner in = new Scanner(System.in);
         int numberOfElectric = in.nextInt();
         System.out.println(getCost(numberOfElectric));
-
     }
 
     public static long getCost(int numOfElec) {

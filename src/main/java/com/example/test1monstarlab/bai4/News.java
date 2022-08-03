@@ -4,7 +4,6 @@ package com.example.test1monstarlab.bai4;
 public class News implements INews {
     private final int MAX_RATE = 3;
     private static int count = 1;
-
     private int id;
     private String title;
     private String publishDate;
@@ -95,5 +94,4 @@ public class News implements INews {
         }
         return (float) totalVote * 1.0f / rateList.length;
     }
-
 }

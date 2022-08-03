@@ -37,7 +37,4 @@ public class Square {
         showPerimeter();
         showArea();
     }
-
-
-
 }
