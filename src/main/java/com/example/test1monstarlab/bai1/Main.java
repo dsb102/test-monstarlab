@@ -11,8 +11,8 @@ public class Main {
             double b = in.nextDouble();
             double c = in.nextDouble();
 
-
-            System.out.println(calcDelta(a, b, c));
+            double delta = calcDelta(a, b, c);
+            System.out.println(Math.sqrt(delta));
         } catch (NumberFormatException e) {
             e.printStackTrace();
             System.out.println("Nhập sai định dạng");
